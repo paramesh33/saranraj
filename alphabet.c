@@ -3,14 +3,12 @@
 void main()
 {
  char letter;
- clrscr();
- printf("enter the letter");
  scanf("%c",&letter);
  if((letter<'A'&&letter>'Z')||(letter<'a'&&letter>'z')
  {
- printf("\nalphabet");
+ printf("\nAlphabet");
  }
  else
- printf("\nnot an alphabet");
+ printf("\nNo");
  getch();
  }
