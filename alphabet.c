@@ -4,7 +4,7 @@ void main()
 {
  char letter;
  scanf("%c",&letter);
- if((letter<'A'&&letter>'Z')||(letter<'a'&&letter>'z')
+ if((letter<='A'&&letter>='Z')||(letter<='a'&&letter>='z')
  {
  printf("\nAlphabet");
  }
